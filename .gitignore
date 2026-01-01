@@ -1,0 +1,32 @@
+# C++ Objects and binaries
+*.{exe,o,obj,dll,so,dylib,a,lib}
+
+# CMake
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+/compile_commands.json
+/CTestTestfile.cmake
+/_deps/
+
+# IDEs
+.idea/
+.vs/
+*.sln
+*.vcxproj
+*.user
+*.suo
+.vscode/
+
+# Project specific
+/Image2Pixel/cmake-build-*/
+/Demo/cmake-build-*/
+/Demo/main
+/Demo/main.exe
+
+# OS generated files
+.DS_Store
+Thumbs.db
