@@ -14,6 +14,16 @@
 
 - **作者**: [StarsUnsurpass](https://github.com/StarsUnsurpass)
 - **项目主页**: [https://github.com/StarsUnsurpass/Image2Pixel](https://github.com/StarsUnsurpass/Image2Pixel)
+- **版本**: v1.0.1 (2026-01-02)
+
+## 更新历史
+
+### v1.0.1 (2026-01-02)
+- **多语言扩展**：新增法语、德语、日语支持，完善了 UI 及对话框的本地化。
+- **主题切换**：支持白天、夜间及系统跟随模式，优化了不同主题下的视觉体验。
+- **精确控制**：将像素大小调节升级为 `QSpinBox` 数字输入框，支持手动输入及范围校验。
+- **安全保存**：自动为导出文件名添加 `pixel_` 前缀，防止误操作覆盖原图。
+- **UI 优化**：修复了提示文字显示不全的问题，精简了窗口标题。
 
 ## 环境要求
 
